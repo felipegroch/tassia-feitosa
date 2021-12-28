@@ -19,19 +19,32 @@
 
 body{
     background-color: #7D6866;
-    min-width: 500px;
+    
+   
+    
 }
 
 main{
-
+    
     background-color: aliceblue;
-    width: 50%;
+    width: 80%;
     margin: auto;
-    padding: 10px;
-    min-width: 450px;
+    padding: 5px;
+    min-width: 400px;
     max-width: 850px;
+   
 
 }
+
+#sobremim{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff1e09;
+}
+.imagemacunputura > picture{
+    text-align: center;
+}
+
 
 header{    
     text-align: center;
@@ -80,13 +93,18 @@ h2{
 
 h3{
     font-family: var(--fonttajawal);
+    font-size: 30px;
 }
 
 article > ul{
+    margin-top: 10px;
     list-style-position: inside;
+    font-family: var(--fonttajawal);
+    font-weight: bolder;
 }
 
-.imagemacupuntura{
-    max-width: 850px;
-    min-width: 450px;
+.imagemacupuntura img{
+    
+    width: 100%;
+    
 }
