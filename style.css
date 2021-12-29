@@ -45,6 +45,12 @@ main{
     text-align: center;
 }
 
+.imgventosa{
+    text-align: center;
+    
+}
+
+
 
 header{    
     text-align: center;
@@ -107,4 +113,10 @@ article > ul{
     
     width: 100%;
     
+}
+
+.imgventosa img{
+    width: 100%;
+    max-width: fit-content;
+
 }
