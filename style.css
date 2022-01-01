@@ -19,8 +19,7 @@
 
 body{
     background-color: #7D6866;
-    
-   
+  
     
 }
 
@@ -35,22 +34,6 @@ main{
    
 
 }
-
-#sobremim{
-    font-size: 20px;
-    font-weight: bold;
-    color: #ff1e09;
-}
-.imagemacunputura > picture{
-    text-align: center;
-}
-
-.imgventosa{
-    text-align: center;
-    
-}
-
-
 
 header{    
     text-align: center;
@@ -89,7 +72,7 @@ p{
     font-family: var(--fonttajawal);
     line-height: 15px;
     color: var(--corgoldescuro);
-
+    font-size: 16px;
 }
 
 h2{
@@ -98,8 +81,12 @@ h2{
 }
 
 h3{
-    font-family: var(--fonttajawal);
+
+    text-align: center;
+    font-family: var(--fontpoppins);
     font-size: 30px;
+    background-image: linear-gradient(to left, #7D6866, transparent);
+    border-radius: 0px 10px;
 }
 
 article > ul{
@@ -109,14 +96,46 @@ article > ul{
     font-weight: bolder;
 }
 
-.imagemacupuntura img{
-    
+ .imagemacupuntura img{
+    text-align: center;
     width: 100%;
     
 }
 
 .imgventosa img{
+    text-align: center;
     width: 100%;
-    max-width: fit-content;
 
+}
+
+
+.imgmoxaterapia img{
+    text-align: center;
+    width: 100%;
+}
+
+.cardcontato img{
+    width: 15px;
+    margin-left: 5px;
+}
+
+.cardcontato {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    background-image: linear-gradient(to left, #7D6866, transparent);
+    border-radius: 0px 0px 10px;
+    
+}
+
+.cardcontato a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+ul{
+    list-style: none;
+    
 }
